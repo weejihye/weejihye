@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>띵동코딩 - 클론코딩</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+        .gnb {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            width: 1100px;
+            height: 60px;
+            margin: auto;
+        }
+        .main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            padding-top: 60px;
+        }        
+        .main > h3 {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.5;
+            text-align: center;
+            color: #415b6d;
+        }
+        .main > h1 {
+            margin-top: 5px;
+            gap: 20px;
+            font-size: 46px;
+            font-weight: 800;
+            line-height: 1.4;
+            text-align: center;
+            color: #26343d;
+            margin-bottom: 30px;
+        }
+        .main > img {
+            display: block;
+            width: 100%;
+            height: 402px;
+            object-fit: contain;
+        }
+        hr {
+            border-top: none;
+            border-bottom: 0.5px solid lightgrey;
+        }
+        .cta {
+            background-color: white;
+            width : 1200px;
+            heigt : 80px;
+            margin: auto;
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            position: fixed;
+            bottom: 20px;
+
+            border-radius: 10px;
+            left: calc(50% - 600px);
+
+            box-shadow: 0px 0px 10px 0px lightgrey;
+        }
+        .cta > p {
+            font-size: 20px;
+            margin-left: 120px;
+
+            font-weight: 500px;
+            
+        }
+        .cta > p > span {
+            color: #ff773c
+        }
+        .cta > button {
+            width: 300px;
+            height: 50px;
+            margin-right: 120px;
+            background-color: #ff773c;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="gnb">
+        <img src="https://ddingdong.spartacodingclub.kr/images/common/logo-tb.svg">
+        <span>로그인</span>
+    </div>
+    <hr>
+    <div class="main">
+        <h3>매주 월요일, 내 강의실에 찾아오는<br/>온라인 코딩 학습지</h3>
+        <h1>띵동코딩이 도착했어요!</h1>
+        <img src="https://media-sparta.s3.ap-northeast-2.amazonaws.com/media/images/hero.png" class="img">
+    </div>
+    <div class="cta">
+        <p><span>첫 달 만 원</span> 혜택 특별 연장, 선착순 100명 한정!</p>
+        <button>만 원으로 시작하기</button>
+    </div>
+</body>
+</html>
