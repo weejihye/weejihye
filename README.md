@@ -2,7 +2,7 @@
   
 ![Jihye's GitHub stats](https://github-readme-stats.vercel.app/api?username=weejihye&show_icons=true&theme=tokyonight)
 <hr>
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=weejihye&layout=compact&theme=tokyonight)
+[Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=weejihye&layout=compact&theme=tokyonight)
 <hr>
 
 <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=C&logoColor=white"/> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=C++&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"/>
